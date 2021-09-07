@@ -1,7 +1,7 @@
 # f5-devops-base
 f5-devops-base dev container based on ubuntu
 
-size about 492MB
+size about 892MB
 
 ## tools:
 
@@ -12,6 +12,9 @@ size about 492MB
 - zsh
 - oh-my-bash/zsh
 - python3
+- golang
+- docker
+- pre-commit
 
 build local to test:
 ```bash

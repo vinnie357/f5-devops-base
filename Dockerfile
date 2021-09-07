@@ -35,7 +35,7 @@ RUN set -ex \
     && bash /tmp/scripts/python-debian.sh ${PYTHON_VERSION} \
     && bash /tmp/scripts/pre-commit-debian.sh ${PRECOMMIT_VERSION} \
     && bash /tmp/scripts/docker-debian.sh "true" "/var/run/docker-host.sock" "/var/run/docker.sock" "${USERNAME}" "true" \
-    && bash /tmp/scripts/go-debian.sh "${GO_VERSION}" "${GO_ROOT}" "${GO_PATH}" "${USERNAME}" "true" "false" 
+    && bash /tmp/scripts/golite-debian.sh "${GO_VERSION}" "${GO_ROOT}" "${GO_PATH}" "${USERNAME}" "true" "false" 
 # Clean up
 RUN set -ex \
 && apt-get autoremove -y && apt-get clean -y && rm -rf /tmp/scripts && rm -rf /var/lib/apt/lists/*
