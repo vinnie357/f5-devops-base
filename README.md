@@ -1,7 +1,7 @@
 # f5-devops-base
 f5-devops-base dev container based on ubuntu
 
-size about 499MB
+size about 1.08GB
 
 ## tools:
 
